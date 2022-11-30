@@ -33,12 +33,13 @@ Portfolio Setup and Mobile first</b></h3>
 - [📝 License](#license)
 
 
-
 # 📖 Portfolio Setup and Mobile first
 
  <a name="about-project"></a>
 
-> This is first Microverse Project.
+> This is first Portfolio Setup and Mobile first.
+In this project i created Navbar and Hero sections.
+It really help me to learn figma and flexbox.
 
 **[Portfolio Setup and Mobile first
 ]** is a...
