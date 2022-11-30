@@ -2,7 +2,7 @@
 
 <div align="center">
 
-  <img src="Microverse-logo.webp" alt="logo" width="140"  height="auto" />
+  <img src="images/Microverse-logo.webp" alt="logo" width="140"  height="auto" />
   <br/>
 
   <h3><b>
