@@ -1,9 +1,8 @@
 :root {
   --color-primary: #6070ff;
-  --color-secondary: #ffffff;
+  --color-secondary: #fff;
   --color-heading: #172b4d;
   --color-btn-text: #396df2;
-
   --font-regular: 400;
   --font-bold: 700;
 }
@@ -15,6 +14,7 @@ html {
 body {
   font-family: "Poppins", sans-serif;
 }
+
 h1,
 h2 {
   font-weight: var(--font-bold);
@@ -26,6 +26,7 @@ h1 {
   margin-top: 20.6rem;
   margin-bottom: 0;
 }
+
 h2 {
   font-size: 3.2rem;
   margin: 0;
@@ -116,7 +117,7 @@ p {
 .btn--normal:hover {
   color: var(--color-secondary);
   background-color: var(--color-primary);
-  box-shadow: 0px 8px 16px rgba(64, 83, 252, 0.24);
+  box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
 }
 
 .counter {
@@ -164,7 +165,7 @@ img {
 .card-work {
   border: 1px solid #dfe1e6;
   border-radius: 16px;
-  background: #ffffff;
+  background: var(--color-secondary);
   display: flex;
   flex-direction: column;
   grid-template-rows: 1fr 1fr;
@@ -239,8 +240,9 @@ img {
   font-size: 2rem;
   color: #000;
 }
-hr{
+
+hr {
   margin: 0 2.4rem;
   height: 1px;
-  background-color: #E5E5E5;
+  background-color: #e5e5e5;
 }
