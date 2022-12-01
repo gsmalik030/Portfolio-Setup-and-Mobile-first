@@ -15,7 +15,8 @@ html {
 body {
   font-family: "Poppins", sans-serif;
 }
-h1,h2 {
+h1,
+h2 {
   font-weight: var(--font-bold);
   color: var(--color-heading);
 }
@@ -35,7 +36,7 @@ a {
   cursor: pointer;
 }
 
-ul{
+ul {
   display: flex;
   align-items: center;
   padding: 0;
@@ -60,7 +61,7 @@ p {
   color: #344563;
 }
 
-.hero-text{
+.hero-text {
   font-size: 1.6rem;
 }
 
@@ -137,54 +138,54 @@ p {
 }
 
 .client-info {
-  color:#7A869A;;
+  color: #7a869a;
 }
 
-.clint-info-text{
+.clint-info-text {
   font-size: 1.5rem;
 }
 
-.framework-box{
+.framework-box {
   display: flex;
-  gap: .8rem;
+  gap: 0.8rem;
 }
 
-.framework{
-background: #EBEBFF;
-border-radius: 8px;
-font-size: 1.2rem;
-padding: .4rem 1.2rem;
-
+.framework {
+  background: #ebebff;
+  border-radius: 8px;
+  font-size: 1.2rem;
+  padding: 0.4rem 1.2rem;
 }
 
-img{
+img {
   width: 100%;
 }
 
-.card-work{
-border: 1px solid #DFE1E6;
-border-radius: 16px;
-background: #FFFFFF;
-display: flex;
-flex-direction: column;
-grid-template-rows: 1fr 1fr;
-gap: 1.6rem;
+.card-work {
+  border: 1px solid #dfe1e6;
+  border-radius: 16px;
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+  grid-template-rows: 1fr 1fr;
+  gap: 1.6rem;
 }
 
-.card-info-box{
+.card-info-box {
   display: flex;
   flex-direction: column;
   gap: 1.6rem;
   margin: 1.6rem;
 }
 
-.card-works-box{
+.card-works-box {
+  margin-top: 11.4rem;
   display: grid;
   grid-template-rows: repeat(4, 1fr);
   gap: 8.8rem;
 }
 
-.about-box{
+.about-box {
   background-image: url(images/Base-about-my-self.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -192,29 +193,54 @@ gap: 1.6rem;
   margin-right: 2.4rem;
 }
 
-.ellipse{
+.ellipse {
   height: 4.8rem;
   width: 4.8rem;
   margin-left: 1.2rem;
 }
 
-.ellipse-text{
+.ellipse-text {
   color: #253858;
   font-size: 1.5rem;
   font-weight: 500;
 }
 
-.language-frame{
-  background: #F7F7F9;
-border-radius: 8px;
-display: flex;
-gap: 1.6rem;
-align-items: center;
+.language-frame {
+  background: #f7f7f9;
+  border-radius: 8px;
+  display: flex;
+  gap: 1.6rem;
+  align-items: center;
+  width: 100%;
 }
 
-.language-box{
+.language-box {
   display: flex;
   flex-direction: column;
   gap: 1.2rem;
-  margin:3.6rem ;
+  margin: 3.6rem;
+}
+
+.arrow {
+  width: 0.6rem;
+  height: 1.2rem;
+  margin-right: 6.6rem;
+}
+
+.frameworks {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.framework-heading {
+  margin-left: 3.6rem;
+  font-weight: 500;
+  font-size: 2rem;
+  color: #000;
+}
+hr{
+  margin: 0 2.4rem;
+  height: 1px;
+  background-color: #E5E5E5;
 }
