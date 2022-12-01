@@ -28,8 +28,15 @@ h1 {
 }
 
 h2 {
-  font-size: 3.2rem;
   margin: 0;
+}
+
+.client-title {
+  font-size: 3.6rem;
+}
+
+.heading-about {
+  font-size: 4rem;
 }
 
 a {
