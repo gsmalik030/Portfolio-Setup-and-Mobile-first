@@ -29,11 +29,14 @@ a {
   cursor: pointer;
 }
 
-ul {
+ul{
   display: flex;
-  gap: 2rem;
   align-items: center;
   padding: 0;
+}
+
+.social-media {
+  gap: 2rem;
 }
 
 li {
@@ -106,3 +109,23 @@ p {
   box-shadow: 0px 8px 16px rgba(64, 83, 252, 0.24);
 }
 
+.counter {
+  background-color: #c1c7d0;
+  height: 0.8rem;
+  width: 0.8rem;
+  border-radius: 0.4rem;
+}
+
+.client {
+  font-weight: 600;
+  font-size: 1.3rem;
+  gap: 1.2rem;
+}
+
+.client-name {
+  color: #344563;
+}
+
+.client-info {
+  color:#7A869A;;
+}
