@@ -1,7 +1,8 @@
 :root {
   --color-primary: #6070ff;
-  --color-secondary: #f7f7f9;
+  --color-secondary: #fff;
   --color-heading: #172b4d;
+  --color-btn-text: #396df2;
   --font-regular: 400;
   --font-bold: 700;
 }
@@ -14,12 +15,28 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
-h1 {
+h1,
+h2 {
   font-weight: var(--font-bold);
-  font-size: 4rem;
   color: var(--color-heading);
+}
+
+h1 {
+  font-size: 4rem;
   margin-top: 20.6rem;
   margin-bottom: 0;
+}
+
+h2 {
+  margin: 0;
+}
+
+.client-title {
+  font-size: 3.6rem;
+}
+
+.heading-about {
+  font-size: 4rem;
 }
 
 a {
@@ -29,9 +46,12 @@ a {
 
 ul {
   display: flex;
-  gap: 2rem;
   align-items: center;
   padding: 0;
+}
+
+.social-media {
+  gap: 2rem;
 }
 
 li {
@@ -45,9 +65,12 @@ h3 {
 }
 
 p {
-  font-size: 1.6rem;
   font-weight: var(--font-regular);
   color: #344563;
+}
+
+.hero-text {
+  font-size: 1.6rem;
 }
 
 .container {
@@ -81,4 +104,152 @@ p {
   display: flex;
   flex-direction: column;
   margin: 0 2.4rem;
+}
+
+.btn {
+  border-radius: 8px;
+  cursor: pointer;
+  padding: 1.2rem;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  font-size: 1.7rem;
+  border: 1px solid var(--color-primary);
+}
+
+.btn--normal {
+  background-color: var(--color-secondary);
+  color: var(--color-btn-text);
+}
+
+.btn--normal:hover {
+  color: var(--color-secondary);
+  background-color: var(--color-primary);
+  box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
+}
+
+.counter {
+  background-color: #c1c7d0;
+  height: 0.8rem;
+  width: 0.8rem;
+  border-radius: 0.4rem;
+}
+
+.client {
+  font-weight: 600;
+  font-size: 1.3rem;
+  gap: 1.2rem;
+  margin: 0;
+}
+
+.client-name {
+  color: #344563;
+}
+
+.client-info {
+  color: #7a869a;
+}
+
+.clint-info-text {
+  font-size: 1.5rem;
+}
+
+.framework-box {
+  display: flex;
+  gap: 0.8rem;
+}
+
+.framework {
+  background: #ebebff;
+  border-radius: 8px;
+  font-size: 1.2rem;
+  padding: 0.4rem 1.2rem;
+}
+
+img {
+  width: 100%;
+}
+
+.card-work {
+  border: 1px solid #dfe1e6;
+  border-radius: 16px;
+  background: var(--color-secondary);
+  display: flex;
+  flex-direction: column;
+  grid-template-rows: 1fr 1fr;
+  gap: 1.6rem;
+}
+
+.card-info-box {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+  margin: 1.6rem;
+}
+
+.card-works-box {
+  margin-top: 11.4rem;
+  display: grid;
+  grid-template-rows: repeat(4, 1fr);
+  gap: 8.8rem;
+}
+
+.about-box {
+  background-image: url(images/Base-about-my-self.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 2.4rem;
+  margin-right: 2.4rem;
+}
+
+.ellipse {
+  height: 4.8rem;
+  width: 4.8rem;
+  margin-left: 1.2rem;
+}
+
+.ellipse-text {
+  color: #253858;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.language-frame {
+  background: #f7f7f9;
+  border-radius: 8px;
+  display: flex;
+  gap: 1.6rem;
+  align-items: center;
+  width: 100%;
+}
+
+.language-box {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  margin: 3.6rem;
+}
+
+.arrow {
+  width: 0.6rem;
+  height: 1.2rem;
+  margin-right: 6.6rem;
+}
+
+.frameworks {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.framework-heading {
+  margin-left: 3.6rem;
+  font-weight: 500;
+  font-size: 2rem;
+  color: #000;
+}
+
+hr {
+  margin: 0 2.4rem;
+  height: 1px;
+  background-color: #e5e5e5;
 }
