@@ -15,13 +15,18 @@ html {
 body {
   font-family: "Poppins", sans-serif;
 }
+h1,h2 {
+  font-weight: var(--font-bold);
+  color: var(--color-heading);
+}
 
 h1 {
-  font-weight: var(--font-bold);
   font-size: 4rem;
-  color: var(--color-heading);
   margin-top: 20.6rem;
   margin-bottom: 0;
+}
+h2 {
+  font-size: 3.2rem;
 }
 
 a {
@@ -50,9 +55,12 @@ h3 {
 }
 
 p {
-  font-size: 1.6rem;
   font-weight: var(--font-regular);
   color: #344563;
+}
+
+.hero-text{
+  font-size: 1.6rem;
 }
 
 .container {
@@ -128,4 +136,8 @@ p {
 
 .client-info {
   color:#7A869A;;
+}
+
+.clint-info-text{
+  font-size: 1.5rem;
 }
