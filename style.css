@@ -27,6 +27,7 @@ h1 {
 }
 h2 {
   font-size: 3.2rem;
+  margin: 0;
 }
 
 a {
@@ -128,6 +129,7 @@ p {
   font-weight: 600;
   font-size: 1.3rem;
   gap: 1.2rem;
+  margin: 0;
 }
 
 .client-name {
@@ -153,4 +155,23 @@ border-radius: 8px;
 font-size: 1.2rem;
 padding: .4rem 1.2rem;
 
+}
+
+img{
+  width: 100%;
+}
+
+.card-work{
+  border: 1px solid #DFE1E6;
+border-radius: 16px;
+background: #FFFFFF;
+display: grid;
+grid-template-rows: 1fr 1fr;
+gap: 1.6rem;
+}
+
+.card-info-box{
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
 }
