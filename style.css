@@ -256,10 +256,10 @@ hr {
 
 .form-container {
   background-repeat: no-repeat;
-  background-image: url(images/contact\ form\ shapes-mobile.svg), url(images/Contact\ me.svg);
+  background-image: url(images/contact.png);
   background-size: cover;
-  background-position: right;
   margin-top: 11.3rem;
+  border-top-left-radius: 50px;
 }
 
 .contact-me {
