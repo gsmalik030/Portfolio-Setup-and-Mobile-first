@@ -258,10 +258,9 @@ hr {
   background-repeat: no-repeat;
   background-image: url(images/contact\ form\ shapes-mobile.svg),
     url(images/Contact\ me.svg);
-    background-size: cover;
+  background-size: cover;
   background-position: right;
   margin-top: 11.3rem;
-
 }
 
 .contact-me {
@@ -275,29 +274,28 @@ hr {
   font-size: 2rem;
   color: #ebebff;
   font-weight: 400;
-  margin: 1.2rem 2.4rem  5rem 2.4rem;
+  margin: 1.2rem 2.4rem 5rem 2.4rem;
 }
 
-.contact-input{
+.contact-input {
   padding: 1.5rem 3.8rem 1.5rem 1.6rem;
   font-size: 1.7rem;
-  border-radius: .8rem;
-  border: 1px solid #CFD8DC;
-  margin: 0 2.4rem ;
-
+  border-radius: 0.8rem;
+  border: 1px solid #cfd8dc;
+  margin: 0 2.4rem;
 }
 
-textarea{
+textarea {
   height: 14rem;
 }
 
-.input-container{
+.input-container {
   display: flex;
   flex-direction: column;
   gap: 2rem;
 }
 
-.btn-form{
+.btn-form {
   flex-grow: 0;
   padding: 1.2rem 1.6rem;
   width: fit-content;
