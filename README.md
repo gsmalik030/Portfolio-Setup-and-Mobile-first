@@ -32,14 +32,14 @@ Portfolio Setup and Mobile first</b></h3>
 - [❓ FAQ](#faq)
 - [📝 License](#license)
 
-
 # 📖 Portfolio Setup and Mobile first
 
- <a name="about-project"></a>
+<a name="about-project"></a>
 
 > This is first Portfolio Setup and Mobile first.
-In this project i created Navbar and Hero sections.
-It really help me to learn figma and flexbox.
+> In this project i created Navbar and Hero sections.
+> It really help me to learn figma and flexbox.
+> we added contact me form while working as a pair (Ambrose and Malik)
 
 **[Portfolio Setup and Mobile first
 ]** is a...
@@ -49,6 +49,7 @@ It really help me to learn figma and flexbox.
 ### Tech Stack <a name="tech-stack"></a>
 
 > It's a Portfolio Website Project.
+
 <details>
   <summary>Client</summary>
   <ul>
