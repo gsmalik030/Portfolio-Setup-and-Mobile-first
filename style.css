@@ -212,6 +212,30 @@ img {
   gap: 1.6rem;
 }
 
+@media screen and (min-width: 76.8rem) {
+  .card-work {
+    margin: 2.4rem;
+  }
+
+  picture,
+  .card-info-box {
+    padding: 2rem;
+    flex-basis: 50%;
+  }
+
+  .btn-card {
+    margin-top: 2.4rem;
+  }
+
+  .flex-order {
+    flex-direction: row;
+  }
+  
+  .flex-order-reveerse {
+    flex-direction: row-reverse;
+  }
+}
+
 .card-info-box {
   display: flex;
   flex-direction: column;
