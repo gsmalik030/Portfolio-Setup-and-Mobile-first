@@ -232,9 +232,17 @@ img {
   gap: 1.6rem;
 }
 
+.ruby {
+  display: none;
+}
+
 @media screen and (min-width: 76.8rem) {
   .card-work {
     margin: 2.4rem;
+  }
+
+  .ruby {
+    display: block;
   }
 
   .card-works-box {
@@ -278,10 +286,6 @@ img {
   background-color: var(--color-secondary);
 }
 
-.about-myself {
-  background-color: var(--color-secondary);
-}
-
 .about-box {
   background-color: var(--color-secondary);
   background-repeat: no-repeat;
@@ -316,6 +320,11 @@ img {
   flex-direction: column;
   gap: 1.2rem;
   margin: 3.6rem;
+}
+
+.about-myself {
+  background-color: var(--color-secondary);
+  display: grid;
 }
 
 @media screen and (min-width: 76.8rem) {
