@@ -90,6 +90,26 @@ p {
 }
 
 @media screen and (min-width: 76.8rem) {
+  h1 {
+    font-size: 4.8rem;
+  }
+
+  .hero-text {
+    font-size: 2rem;
+  }
+
+  .client-title {
+    font-size: 4rem;
+  }
+
+  .client {
+    font-size: 1.8rem;
+  }
+
+  .clint-info-text {
+    font-size: 1.6rem;
+  }
+
   .hero {
     padding: 20.6rem 26rem 0 26rem;
   }
@@ -217,6 +237,10 @@ img {
     margin: 2.4rem;
   }
 
+  .card-works-box {
+    margin: 14.2rem;
+  }
+
   picture,
   .card-info-box {
     padding: 2rem;
@@ -250,10 +274,12 @@ img {
   gap: 8.8rem;
 }
 
+.about-contact-box {
+  background-color: var(--color-secondary);
+}
+
 .about-myself {
   background-color: var(--color-secondary);
-  display: grid;
-  grid-template-columns: 1fr 1fr;
 }
 
 .about-box {
