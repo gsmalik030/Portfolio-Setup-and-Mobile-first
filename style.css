@@ -53,7 +53,7 @@ ul {
 
 .social-media {
   gap: 2rem;
-  margin-bottom: 13.6rem;
+  margin-bottom: 3.4rem;
 }
 
 li {
@@ -230,7 +230,7 @@ img {
   .flex-order {
     flex-direction: row;
   }
-  
+
   .flex-order-reveerse {
     flex-direction: row-reverse;
   }
@@ -250,12 +250,18 @@ img {
   gap: 8.8rem;
 }
 
+.about-myself {
+  background-color: var(--color-secondary);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
 .about-box {
-  background-image: url(images/Base-about-my-self.png);
+  background-color: var(--color-secondary);
   background-repeat: no-repeat;
   background-size: cover;
-  margin-left: 2.4rem;
-  margin-right: 2.4rem;
+  padding: 2.4rem;
+  border-top-right-radius: 5rem;
 }
 
 .ellipse {
@@ -284,6 +290,35 @@ img {
   flex-direction: column;
   gap: 1.2rem;
   margin: 3.6rem;
+}
+
+@media screen and (min-width: 76.8rem) {
+  .about-myself {
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .ellipse {
+    margin-left: 0;
+  }
+
+  .language-frame {
+    gap: 1.2rem;
+    flex-direction: column;
+    justify-content: left;
+  }
+
+  .language-box {
+    display: flex;
+    flex-direction: row;
+    gap: 1.2rem;
+    width: 60%;
+  }
+
+  h4 {
+    margin-top: 0;
+  }
 }
 
 .arrow {
