@@ -6,10 +6,14 @@
   <br/>
 
   <h3><b>
-Portfolio Setup and Mobile first</b></h3>
+My Microverse Portfolio Project</b></h3>
 
 </div>
 
+## Built With
+
+- HTML 5
+- CSS 3
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
@@ -117,6 +121,9 @@ Example command:
 
 Clone this repository to your desired folder:
 
+**Just clone the project by runing the `git clone git@github.com:gsmalik030/Portfolio-Setup-and-Mobile-first.git` command in your command line, and you are done.**
+
+
 ### Install
 
 Install this project with:
@@ -174,19 +181,12 @@ Example:
 
 > Mention all of the collaborators of this project.
 
-👤 **Author1**
+👤 **Ghulam Subbhani(Malik)**
 
 - GitHub: [@githubhandle](https://github.com/gsmalik030)
 - Twitter: [@twitterhandle](https://twitter.com/gsmalik030)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/ghulam-subbhani-4b1281252/)
 
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
 
