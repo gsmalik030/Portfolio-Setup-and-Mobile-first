@@ -138,6 +138,10 @@ p {
   }
 }
 
+.logo:hover {
+  transform: rotate(15deg) scale(1.5);
+}
+
 .btn {
   border-radius: 8px;
   cursor: pointer;
