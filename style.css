@@ -119,6 +119,25 @@ p {
   margin-left: 2.4rem;
 }
 
+@keyframes pop {
+  0% {
+    transform: scale(1.5);
+  }
+
+  20% {
+    transform: rotate(10deg);
+    background-color: tomato;
+  }
+
+  50% {
+    transform: scale(0.5);
+  }
+
+  100% {
+    transform: scale(0);
+  }
+}
+
 .btn {
   border-radius: 8px;
   cursor: pointer;
@@ -138,6 +157,7 @@ p {
   color: var(--color-secondary);
   background-color: var(--color-primary);
   box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
+  animation: pop 2s ease-out;
 }
 
 .counter {
