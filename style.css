@@ -9,10 +9,12 @@
 
 html {
   font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 
 body {
   font-family: "Poppins", sans-serif;
+  background: #e5e5e5;
 }
 
 h1,
@@ -23,7 +25,6 @@ h2 {
 
 h1 {
   font-size: 4rem;
-  margin-top: 20.6rem;
   margin-bottom: 0;
 }
 
@@ -52,6 +53,7 @@ ul {
 
 .social-media {
   gap: 2rem;
+  margin-bottom: 3.4rem;
 }
 
 li {
@@ -69,22 +71,45 @@ p {
   color: #344563;
 }
 
+.hero {
+  display: flex;
+  flex-direction: column;
+  padding: 20.6rem 2.4rem 0 2.4rem;
+}
+
 .hero-text {
   font-size: 1.6rem;
 }
 
 .container {
-  background-image: url(images/Background-header.png);
+  background-color: var(--color-secondary);
+  background-image: url(images/header-shapes\ mobile.svg);
   background-repeat: no-repeat;
   background-size: cover;
+  border-bottom-left-radius: 5rem;
+}
+
+.mobile-nav {
+  margin-right: 3.6rem;
+  width: 1.8rem;
+  height: 1.2rem;
+}
+
+.desktop-nav {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #344563;
+  gap: 3.2rem;
+  margin-right: 15.4rem;
+  display: none;
 }
 
 .header-container {
   width: 100%;
-  height: 4.8rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: var(--color-secondary);
 }
 
 .logo {
@@ -92,18 +117,6 @@ p {
   font-size: 1.8rem;
   color: var(--color-primary);
   margin-left: 2.4rem;
-}
-
-.nav-bar {
-  width: 1.8rem;
-  height: 1.2rem;
-  margin-right: 3.6rem;
-}
-
-.hero {
-  display: flex;
-  flex-direction: column;
-  margin: 0 2.4rem;
 }
 
 .btn {
@@ -179,6 +192,10 @@ img {
   gap: 1.6rem;
 }
 
+.ruby {
+  display: none;
+}
+
 .card-info-box {
   display: flex;
   flex-direction: column;
@@ -187,18 +204,23 @@ img {
 }
 
 .card-works-box {
-  margin-top: 11.4rem;
+  margin: 11.4rem 0;
   display: grid;
   grid-template-rows: repeat(4, 1fr);
   gap: 8.8rem;
 }
 
+.about-contact-box {
+  background-color: var(--color-secondary);
+  border-top-right-radius: 5rem;
+}
+
 .about-box {
-  background-image: url(images/Base-about-my-self.png);
+  background-color: var(--color-secondary);
   background-repeat: no-repeat;
   background-size: cover;
-  margin-left: 2.4rem;
-  margin-right: 2.4rem;
+  padding: 2.4rem;
+  border-top-right-radius: 5rem;
 }
 
 .ellipse {
@@ -229,6 +251,11 @@ img {
   margin: 3.6rem;
 }
 
+.about-myself {
+  background-color: var(--color-secondary);
+  display: grid;
+}
+
 .arrow {
   width: 0.6rem;
   height: 1.2rem;
@@ -256,7 +283,8 @@ hr {
 
 .form-container {
   background-repeat: no-repeat;
-  background-image: url(images/contact.png);
+  background-color: #6070ff;
+  background-image: url(images/contact\ form\ shapes-mobile.svg);
   background-size: cover;
   margin-top: 11.3rem;
   border-top-left-radius: 50px;
@@ -300,4 +328,123 @@ textarea {
   width: fit-content;
   margin-left: 2.4rem;
   margin-bottom: 22.5rem;
+}
+
+@media screen and (min-width: 768px) {
+  h1 {
+    font-size: 4.8rem;
+  }
+
+  .hero-text {
+    font-size: 2rem;
+  }
+
+  .client-title {
+    font-size: 4rem;
+  }
+
+  .client {
+    font-size: 1.8rem;
+  }
+
+  .clint-info-text {
+    font-size: 1.6rem;
+  }
+
+  .hero {
+    padding: 20.6rem 26rem 0 26rem;
+  }
+
+  .container {
+    background-image: url(images/Header\ bg.svg);
+  }
+
+  .mobile-nav {
+    visibility: hidden;
+  }
+
+  .desktop-nav {
+    display: flex;
+  }
+
+  .card-work {
+    margin: 2.4rem;
+  }
+
+  .ruby {
+    display: block;
+  }
+
+  .card-works-box {
+    margin: 14.2rem;
+  }
+
+  picture,
+  .card-info-box {
+    padding: 2rem;
+    flex-basis: 50%;
+  }
+
+  .btn-card {
+    margin-top: 2.4rem;
+  }
+
+  .flex-order {
+    flex-direction: row;
+  }
+
+  .flex-order-reveerse {
+    flex-direction: row-reverse;
+  }
+
+  .about-myself {
+    grid-template-columns: 40% 60%;
+    margin: 1rem 1rem 0 1rem;
+    padding-top: 11rem;
+  }
+
+  .ellipse {
+    margin-left: 0;
+  }
+
+  .language-frame {
+    gap: 1.2rem;
+    flex-direction: column;
+    justify-content: left;
+  }
+
+  .language-box {
+    display: flex;
+    flex-direction: row;
+    gap: 1.2rem;
+    width: 60%;
+  }
+
+  h4 {
+    margin-top: 0;
+  }
+
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(images/desktop-contact-form-background.svg);
+    text-align: center;
+  }
+
+  .contact-input {
+    width: 44.7rem;
+    margin: 0;
+    border-radius: 2px;
+  }
+
+  .contact-info {
+    width: 56.9rem;
+  }
+
+  .input-container {
+    justify-content: center;
+    align-items: center;
+  }
 }
